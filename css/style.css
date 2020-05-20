@@ -1,3 +1,50 @@
+<<<<<<< HEAD
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.child{
+	width: 30%;
+	border: 1px solid #000;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 3px 3px 8px -8px #000;
+	border-radius: 5%;
+	text-align: center;
+}
+.profile{
+    width:70%;
+    border-radius: 50%;
+}
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    color:blueviolet;
+}
+.role{
+    font-size: 16px;
+    font-weight: bold;
+    color:blueviolet;
+}
+.contact{
+    font-size: 12px;
+    font-weight: bold;
+    color:blueviolet;
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+	.child{
+	       width: 90%;
+	       border: 1px solid #000;
+	       padding: 1%;
+		   margin: 1%;
+	       box-shadow: 3px 3px 8px -8px #000;
+	       border-radius: 5%;
+	       text-align: center;
+	}
+
+=======
 @media only screen and (min-width:320px and max-width:480px)
     .child{
         width:90%;
@@ -43,3 +90,4 @@
     font-weight: bold;
     color:blueviolet;
 }
+>>>>>>> 2baa21764b4e8a72db85bd42df632153bbf66953
